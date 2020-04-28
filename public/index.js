@@ -47,4 +47,12 @@ const logout = document.querySelector("#logout");
 logout.addEventListener("click", (e) => {
   e.preventDefault();
   auth.signOut();
+  console.log("clicked me");
+});
+
+// mobile logout
+const mLogout = document.querySelector("#mlogout");
+mLogout.addEventListener("click", (e) => {
+  e.preventDefault();
+  auth.signOut();
 });
