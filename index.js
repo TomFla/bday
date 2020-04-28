@@ -1,8 +1,10 @@
 // Tracking user Auth status changes
 auth.onAuthStateChanged((user) => {
   if (user) {
+    setupUI(user);
     console.log("user login");
   } else {
+    setupUI();
     console.log("user Logout");
   }
 });
