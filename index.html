@@ -1,0 +1,207 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>B-day</title>
+
+</head>
+
+<body>
+
+    <!-- header with navbar -->
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper blue ligthen-1">
+            <div class="container">
+                <a href="#" class="brand-logo left">Happy BirthDay</a>
+                <a href="#" data-target="mobile-links" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#" class="mobile-link modal-trigger" data-target="modal-signup">Sign up</a></li>
+                    <li><a href="#" class="mobile-link modal-trigger" data-target="modal-login">Login</a></li>
+                    <li><a href="#" class="mobile-link modal-trigger" id="logout">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- sidenav -->
+    <ul class="sidenav" id="mobile-links">
+        <li><a href="#" class="blue-text text-darken-3 mobile-link modal-trigger" data-target="modal-signup">Sign up</a></li>
+        <li><a href="#" class="blue-text text-darken-3 mobile-link modal-trigger" data-target="modal-login">Login</a></li>
+        <li><a href="#" class="blue-text text-darken-3 mobile-link modal-trigger" data-target="modal-login" id="logout">Logout</a></li>
+        <li><a href="#" class="blue-text text-darken-3 mobile-link">About</a></li>
+    </ul>
+
+    <!-- Signup modal -->
+
+    <div id="modal-signup" class="modal">
+        <div class="modal-content">
+            <h4>Sign up</h4><br />
+            <form id="signup-form">
+                <div class="input-field">
+                    <input type="email" id="signup-email" required />
+                    <label for="signup-email">Email address</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="signup-password" required />
+                    <label for="signup-password">Choose password</label>
+                </div>
+                <button class="btn blue darken-3 z-depth-0">Sign up</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login modal -->
+
+    <div id="modal-login" class="modal">
+        <div class="modal-content">
+            <h4>Login</h4><br />
+            <form id="login-form">
+                <div class="input-field">
+                    <input type="email" id="login-email" required />
+                    <label for="login-email">Email address</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="login-password" required />
+                    <label for="login-password">Your password</label>
+                </div>
+                <button class="btn blue darken-3 z-depth-0">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Parallax Img -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/confetti.png" alt=""></div>
+    </div>
+
+    <!-- Section -->
+    <section class="container section">
+        <div class="row">
+            <div class="col s12 l4">
+                <h1 class="amber-text text-darken-3 smallScreanheader">...It's Your</h2>
+                    <h1 class="amber-text text-darken-3 smallScreanheader">BirthDay...</h2>
+                        <p class="blue-text text-darken-3 sp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident non nisi ipsum quam, natus pariatur culpa dolor veniam dolorem debitis vel cum vitae voluptate, necessitatibus optio, corporis incidunt omnis nesciunt!</p>
+                        <p class="blue-text text-darken-3 sp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident non nisi ipsum quam, natus pariatur culpa dolor veniam dolorem debitis vel cum vitae voluptate, necessitatibus optio, corporis incidunt omnis nesciunt!</p>
+                        <p class="blue-text text-darken-3 sp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident non nisi ipsum quam, natus pariatur culpa dolor veniam dolorem debitis vel cum vitae voluptate, necessitatibus optio, corporis incidunt omnis nesciunt!</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <!-- tabs -->
+                <ul class="tabs">
+                    <li class="tab col s6"><a href="#option1" class="blue-text text-darken-3">Option1</a></li>
+                    <li class="tab col s6"><a href="#option2" class="blue-text text-darken-3">Option2</a></li>
+                </ul>
+                <div class="col s12" id="option1">
+                    <p class="flow-text amber-text text-darken-3 downh">OPTION1</p>
+                    <p class="blue-text text-darken-3 sp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati quaerat nesciunt suscipit vel, soluta veritatis, reprehenderit modi dolor cum sit minima adipisci itaque, possimus excepturi fugit exercitationem provident
+                        recusandae.
+                    </p>
+                    <p class="blue-text text-darken-3 sp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deserunt sunt aut dolores reiciendis tempore velit repellendus, pariatur explicabo enim quasi veniam reprehenderit suscipit totam nostrum adipisci atque nihil dicta.</p>
+                </div>
+                <div class="col s12" id="option2">
+                    <p class="flow-text amber-text text-darken-3 downh">OPTION2</p>
+                    <p class="blue-text text-darken-3 sp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati quaerat nesciunt suscipit vel, soluta veritatis, reprehenderit modi dolor cum sit minima adipisci itaque, possimus excepturi fugit exercitationem provident
+                        recusandae.
+                    </p>
+                    <p class="blue-text text-darken-3 sp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deserunt sunt aut dolores reiciendis tempore velit repellendus, pariatur explicabo enim quasi veniam reprehenderit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container push-top">
+        <div class="row">
+            <h1 class="amber-text text-darken-3 smallScreanheader">...Dynamic</h1>
+            <h1 class="amber-text text-darken-3 smallScreanheader">Content...</h1>
+        </div>
+    </section>
+
+    <div class="parallax-container paralax-heigth">
+        <div class="parallax"><img src="img/confetti-rev.png" alt=""></div>
+    </div>
+
+    <footer class="page-footer blue ligthen-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5>About Me</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright blue darken-3">
+            <div class="container center-align">&copy; 2020 Toamsz Flakus</div>
+        </div>
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBKtzoh9erolENW55zDUhcViDO5kmy637I",
+            authDomain: "logform-60e1d.firebaseapp.com",
+            databaseURL: "https://logform-60e1d.firebaseio.com",
+            projectId: "logform-60e1d",
+            appId: "1:820281066237:web:661704048476d37d6bf494"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        // make auth and firestore references
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+        // update firestore setting
+        // db.settings({
+        //     timestampsInSnapshots: true
+        // })
+    </script>
+
+    <script src=" https://code.jquery.com/jquery-3.5.0.min.js "></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+    <script src="/app.js"></script>
+    <script src="/index.js"></script>
+
+    <script>
+        $(document).ready(() => {
+            $('.sidenav').sidenav({
+                edge: "right"
+            });
+            $('.parallax').parallax()
+            $('.tabs').tabs()
+            $('.modal').modal()
+        });
+    </script>
+
+</body>
+
+</html>
